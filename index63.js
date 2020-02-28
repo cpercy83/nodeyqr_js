@@ -38,10 +38,10 @@ case 2016:
 case 2017:
     champion = "Pittsburgh Penguins";
     break;
-default:
-    console.error("Please try a year between 2006 and 2017");
-    break;
 }
 
-if (champion)
+if (champion) {
 console.log(`The winner in ${year} was ${champion}`);
+} else {
+    console.error("Please try a year between 2006 and 2017");
+}
